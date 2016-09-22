@@ -2,7 +2,7 @@
 
 Gladys hooks for enabling speaking in Gladys.
 
-Need Gladys version >= 3.0.0.
+Need Gladys version >= 3.1.6.
 
 ## Documentation
 
