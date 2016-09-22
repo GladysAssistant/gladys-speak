@@ -1,0 +1,18 @@
+{
+  "name": "gladys-speak",
+  "version": "0.1.0",
+  "description": "Gladys hooks for enabling Gladys speaking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre-Gilles Leymarie",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "lame": "^1.2.4",
+    "md5": "^2.2.1",
+    "queue": "^4.0.0",
+    "speaker": "^0.3.0"
+  }
+}
