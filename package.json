@@ -10,6 +10,7 @@
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
     "fs-extra": "^0.30.0",
+    "gladys-mqtt-adapter": "^0.2.1",
     "lame": "^1.2.4",
     "md5": "^2.2.1",
     "queue": "^4.0.0",
