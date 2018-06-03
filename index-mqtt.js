@@ -4,7 +4,9 @@ if(process.argv.length < 6) {
         - Example: node index-mqtt.js $YOUR_GLADYS_MACHINE_ID $YOUR_MQTT_URL $YOUR_MQTT_USERNAME $YOUR_MQTT_PASSWORD $MODULE_SLUG
     `);
 }
- 
+
+var say = require('./lib/say');
+
 var gladysMqttAdapter = require('gladys-mqtt-adapter')({
     MACHINE_ID: process.argv[2],
     MQTT_URL: process.argv[3],
