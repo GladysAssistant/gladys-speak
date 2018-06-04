@@ -1,3 +1,9 @@
+// if we are running inside sails.js, it means we are running inside Gladys
+// This file is not supposed to run inside Gladys so stop now.
+if(sails){
+    return;
+}
+
 if(process.argv.length < 6) {
     throw new Error(`
         Error. You should provide required arguments to start this module.
